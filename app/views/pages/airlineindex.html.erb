@@ -1,0 +1,11 @@
+<div class = "page-header">
+  <h1>Payment Options</h1>
+</div>
+
+<% @airline_list.each do |airline| %>
+<div class="row">
+  <div class="col-md-12">
+    <h3><a href="/pages/airlinedetail"><%= airline %></a></h3>
+  </div>
+</div>
+<% end %>
